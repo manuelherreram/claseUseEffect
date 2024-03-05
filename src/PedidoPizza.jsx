@@ -23,7 +23,7 @@ const PedidoPizza = () => {
   return (
     <div>
       <h1>Tu Pedido de Pizza es: </h1>
-      {mostarOrden && order && <PizzaOrder />}
+      {mostarOrden && <PizzaOrder nombre={order} />}
       <button onClick={handleCancelOrder}>Cancelar pedido</button>
     </div>
   );

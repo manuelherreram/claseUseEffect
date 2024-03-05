@@ -1,7 +1,7 @@
 import React from "react";
 
 const PizzaOrder = (props) => {
-  return <p>Pizza Queso</p>;
+  return <p>{props.nombre}</p>;
 };
 
 export default PizzaOrder;
